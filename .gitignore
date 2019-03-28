@@ -7,3 +7,5 @@ bin
 .project
 
 dbConfig.properties
+
+mylog.log

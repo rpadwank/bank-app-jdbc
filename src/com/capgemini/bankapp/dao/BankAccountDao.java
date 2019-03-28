@@ -11,7 +11,6 @@ public interface BankAccountDao {
 	public boolean deleteBankAccount(long accountId);
 	public boolean addNewBankAccount(BankAccount account);
 	public List<BankAccount> findAllBankAccounts();
-	public BankAccount searchAccount(long accountId) throws AccountNotFoundException;
-	public boolean updateAccountHolderName(long accountId, String accountHolderName);
-	public boolean updateAccountType(long accountId, String accountType);
+	public BankAccount searchAccount(long accountId);
+	public boolean updateAccountDetails(BankAccount account);
 }
